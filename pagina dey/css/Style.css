@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+.fond{
+    background-image: url(../img/entregable.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.fdc{
+    background-image: url(../img/fdc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Bubblegum';
+    src: url(../Bubblegum.ttf);
+}
+.parrafo-bienvenida {
+    font-size: 2rem;
+    height: 18vh;
+    width: 40%;
+    background-color: #ffffff69;
+}
+.titulo-bienvenida{
+    color: #fff;
+    font-family: 'Bubblegum';
+    font-size: 5rem;
+    text-align: center;
+}
+.btn-info{
+    --bs-btn-bg:#E3AF6F !important;
+    --bs-btn-border-color: #E3AF6F !important;
+}
+.boton-comic{
+    height: 2rem;
+    width: 20%;
+}
+.boton-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.video{
+    width: 50%;
+}
