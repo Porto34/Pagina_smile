@@ -23,15 +23,20 @@
 }
 .parrafo-bienvenida {
     font-size: 2rem;
-    height: 18vh;
+    height: 26vh;
     width: 40%;
     background-color: #ffffff69;
+    font-family: 'finalf';
 }
 .titulo-bienvenida{
     color: #fff;
     font-family: 'Bubblegum';
     font-size: 5rem;
     text-align: center;
+}
+.titulos{
+    font-family: 'Bubblegum';
+    color: #E3AF6F;
 }
 .btn-info{
     --bs-btn-bg:#E3AF6F !important;
@@ -48,5 +53,44 @@
     text-decoration: none;
 }
 .video{
-    width: 50%;
+    width: 100%;
+}
+.barra{
+    background-color: #EEE9DA ;
+}
+.tnd{
+    --bs-btn-hover-bg:#E3AF6F !important;
+    --bs-btn-active-bg:#E3AF6F !important;
+}
+.logo{
+    width: 12rem;
+}
+.texto{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.parrafo-comic{
+    text-align: center;
+    font-family: 'finalf';
+}
+.parrafo{
+    text-align: center;
+    font-family: 'finalf';
+}
+.fc{
+    background-image: url(../img/fdc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+}
+@font-face {
+    font-family: 'finalf';
+    src: url(../finalf.ttf);
+}
+.bg{
+    background-color:#bdcdd669;
+}
+.boton{
+    background-color: #E3AF6F;
 }
